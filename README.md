@@ -1,4 +1,7 @@
 # TechFormating Application
+
+![img](./ScreenShot/logo.png)
+
 ## SOMMAIRE:
 
         - Présentation
