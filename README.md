@@ -94,7 +94,7 @@ Une fois l'utilisateur est inscrit à une certaine formation, cette interface lu
 Il permet la création d’applications Web et plus particulièrement de ce qu’on appelle des « Single Page Applications » : des applications web accessibles via une page web unique qui permet de fluidifier l’expérience utilisateur et d’éviter les chargements de pages à chaque nouvelle action. 
 Le Framework est basé sur une architecture du type MVC et permet donc de séparer les données, le visuel et les actions pour une meilleure gestion des responsabilités.
 
-![img](./ScreenShot/angular.png)
+![img](./ScreenShot/angular.svg)
 
 **Ionic** est un framework open-source créé en 2013 par Max Lynch, Ben Sperry, et Adam Bradley.
 Basé initialement sur AngularJS et Apache Cordova2, Ionic permet de créer un code multisupport en utilisant des outils Web comme HTML, CSS, JavaScript, afin de générer des applications iOS, Android, Chrome, Windows Phone et bien d'autres.
