@@ -1,19 +1,15 @@
 # TechFormating Application
 ## SOMMAIRE:
 
-        I.  **Présentation**
-       II.  Les interfaces de l’application
-             1- L’ensemble des interfaces d’authentification: **Sign up & Sign in**
-             2- L’interface d'Accueil
-             3- L’interface Details
-             4- L’interface Summary
+        - **Présentation**
+        - **Les interfaces de l’application**
+             1. L’ensemble des interfaces d’authentification: **Sign up & Sign in**
+             2. L’interface d'Accueil
+             3. L’interface Details
+             4. L’interface Summary
 
-       III.  Gestion de base de données
-1-      Diagramme de classe
-2-      Diagramme de séquence
-       IV.  Environnement et outils de travail
-1-      Android Studio
-2-      SQLite
+        - **Gestion de base de données**:
+        - **Environnement et outils de travail**:
 
 Cette application mobile consiste a 
 
