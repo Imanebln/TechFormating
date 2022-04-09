@@ -1,4 +1,20 @@
 # TechFormating Application
+## SOMMAIRE:
+
+        I.  **Présentation**
+       II.  Les interfaces de l’application
+             1- L’ensemble des interfaces d’authentification: **Sign up & Sign in**
+             2- L’interface d'Accueil
+             3- L’interface Details
+             4- L’interface Summary
+
+       III.  Gestion de base de données
+1-      Diagramme de classe
+2-      Diagramme de séquence
+       IV.  Environnement et outils de travail
+1-      Android Studio
+2-      SQLite
+
 Cette application mobile consiste a 
 
 ## L’application se présente avec un système d’authentification (SignIn + SignUp):
@@ -31,7 +47,7 @@ Cette interface affiche la liste (Ionic sliding list) des **formations** disponi
 ![img](./ScreenShot/dashboard.png)
 ![img](./ScreenShot/more_button.png)
 
-En bas de l'interface, s'affiche des **Tabs** qui nous ramene toujours a **l'interface d'acceuil** ou bien pour se deconnecter (**Logout**)
+En bas de l'interface, s'affiche des **Tabs** qui ramene toujours a **l'interface d'acceuil** ou bien pour se deconnecter (**Logout**), l'utilisateur se trouve de nouveau dans l'interface de connexion: **Sign In**
 
 ![img](./ScreenShot/tabs.png)
 
