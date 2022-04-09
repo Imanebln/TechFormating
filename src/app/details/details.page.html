@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Details:</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list *ngIf="selectedFormation">
+        <ion-item>
+          <!-- <ion-avatar>
+            <img [src]="selectedFormation.img">
+          </ion-avatar> -->
+          <ion-card>
+            <ion-card-content>
+              <ion-img [src]="selectedFormation.img"></ion-img>
+            </ion-card-content>
+          </ion-card>
+          <!-- <img [src]="selectedFormation.img"> -->
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <span class="fw-bold">Name:</span> {{ selectedFormation.name }} 
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <span class="fw-bold">Description:</span> {{ selectedFormation.description }} 
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <span class="fw-bold">Duration:</span> {{ selectedFormation.duration }} 
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <span class="fw-bold">Prerequisite:</span> {{ selectedFormation.prerequisite }} 
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <span class="fw-bold">Price:</span> {{ selectedFormation.price}} <span>$</span>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <ion-button expand="block" fill="outline" (click)="onSelect(selectedFormation)">Enroll now !</ion-button>
+    </ion-card-content>
+  </ion-card>
+  
+</ion-content>

@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Sign in User</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <!-- <ion-card>
+    <ion-card-content>
+      <ion-img src="../../assets/icon/logo.png"></ion-img>
+    </ion-card-content>
+  </ion-card> -->
+  <ion-grid>
+    <ion-img src="../../assets/icon/logo.png"></ion-img>
+  </ion-grid>
+  <form class="ion-margin">
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input autocomplete="on" type="text" #email required></ion-input>
+    </ion-item>
+    <ion-item lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" #password required></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col>
+        <ion-button
+          type="submit"
+          (click)="logIn(email, password)"
+          expand="block"
+          >Login</ion-button
+        >
+      </ion-col>
+    </ion-row>
+    <span class="divider line one-line">or</span>
+    <ion-row>
+      <ion-col>
+        <ion-button
+          type="submit"
+          color="danger"
+          (click)="authService.GoogleAuth()"
+          expand="block"
+        >
+          Login with Google
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Copyright©2022 TechForm</ion-title>
+  </ion-toolbar>
+</ion-footer>

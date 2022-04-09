@@ -1,0 +1,7 @@
+{
+  "name": "TechFormating",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

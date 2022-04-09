@@ -1,0 +1,39 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title> TechFormating </ion-title>
+      <!-- <ion-button type="submit" (click)="authService.SignOut()" slot="end"color="secondary">
+          Logout
+      </ion-button> -->
+      
+    </ion-toolbar>
+    
+  </ion-header>
+  <ion-content class="auth-form">
+    <ion-grid>
+      
+      <!-- List of Text Items -->
+      <ion-card>
+        <ion-card-header>
+          <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
+          <ion-card-title>Formations:</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-list *ngFor="let f of formations" >
+            <ion-item-sliding>
+            <ion-item >
+              <ion-label> {{ f.name }} </ion-label>
+              
+              <!-- <ion-button (click)="onSelect(f)" fill="solid">More</ion-button> -->
+            </ion-item>
+            <ion-item-options side="end">
+              <ion-item-option (click)="onSelect(f)">More</ion-item-option>
+            </ion-item-options>
+          </ion-item-sliding>
+          </ion-list>
+        </ion-card-content>
+      </ion-card>
+
+    </ion-grid>
+  </ion-content>
+  
+ 

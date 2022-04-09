@@ -1,20 +1,39 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title> TechFormating </ion-title>
   </ion-toolbar>
 </ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content class="auth-form">
+  <ion-grid >
+    <!-- <h1>Welcome to TechFormating!</h1> -->
+    <!-- <ion-card>
+      <ion-card-content>
+        <ion-img src="../../assets/icon/logo.png"></ion-img>
+      </ion-card-content>
+    </ion-card> -->
+    <ion-img src="../../assets/icon/logo.png"></ion-img>
+  </ion-grid>
+  <ion-grid class="ion-margin">
+    <ion-row>
+      <ion-col class="ion-align-self-center">
+        <ion-button
+          [routerLink]="['/registration']"
+          expand="block"
+          color="primary"
+          >Register</ion-button
+        >
+        <span class="divider line one-line">or </span>
+        <span class="already">Already a user?</span>
+        <br>
+        <ion-button [routerLink]="['/login']" expand="block" color="danger"
+          >Sign In</ion-button
+        >
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Copyright©2022 TechForm</ion-title>
+  </ion-toolbar>
+</ion-footer>
