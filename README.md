@@ -1,49 +1,64 @@
 # TechFormating Application
 ## SOMMAIRE:
 
-        - **Présentation**
-        - **Les interfaces de l’application**
-             1. L’ensemble des interfaces d’authentification: **Sign up & Sign in**
+        - Présentation
+        
+        - Les interfaces de l’application
+             1. L’ensemble des interfaces d’authentification: Sign up & Sign in
              2. L’interface d'Accueil
              3. L’interface Details
              4. L’interface Summary
 
-        - **Gestion de base de données**:
-        - **Environnement et outils de travail**:
+        - Gestion de base de données:
+             - Firebase
+             
+        - Technologies utilisees:
+             - Angular
+             - Ionic
+             
+        - Environnement et outils de travail:
+             - VS Code
+             - Firebase Console
+           
+## Présentation:
+Cette application mobile consiste à créer une application mobile sous nom de **TechFormating**, sous forme d'une platforme de formations en programmation (**language et Framework**).
 
-Cette application mobile consiste a 
+## Les interfaces de l’application: 
 
-## L’application se présente avec un système d’authentification (SignIn + SignUp):
+###### L’application se présente avec un système d’authentification (SignIn + SignUp):
+
 ![img](./ScreenShot/home.png)
+
 ## L'interface Sign up :
-L'interface qui permet aux clients de s’inscrire et accéder à l'application pour profiter de ses services (**les formations**), en saisissant les champs suivants: **l'adresse email et le password**
+Cette interface permet à l'utilisateur de s’inscrire et accéder à l'application pour profiter de ses services (**les formations**), en saisissant les champs suivants: **l'adresse email et le password**
 
 ![img](./ScreenShot/SignUp.png)
 
-L'utilisateur doit entrer un email valide,  sinon un alert s’affiche lui indiquant comme suit:
+L'utilisateur doit entrer un email valide, sinon un alert s’affiche lui indiquant comme suit:
 
+![img](./ScreenShot/invalid_email.png)
 
 ## L'interface Sign In :
 Les champs **email** et **password** nous permettent la connexion à l’application à travers l'interface **Sign In**:
 
 ![img](./ScreenShot/SignIn.png)
 
-L'utilisateur doit se conne cter avec un compte qui existe, sinon un alert s’affiche lui indiquant comme suit:
+L'utilisateur doit se connecter avec un compte existant, sinon un alert s’affiche lui indiquant comme suit:
 
 ![img](./ScreenShot/no_user.png)
 
-S'il se trompe dan le mot de passe, un alert s’affichera toujours :
+S'il se trompe dans le mot de passe, un alert s’affichera toujours :
 
 ![img](./ScreenShot/wrong_password.png)
-L'utilisateur peut meme se connecter avec **Google Provider** fournit par la platforme **Firebase**
+L'utilisateur peut même se connecter avec **Google Provider** fournit par la platforme **Firebase**
 
 ## L'interface Accueil :
-Cette interface affiche la liste (Ionic sliding list) des **formations** disponibles sur la platforme, il suffit de **Swipe left** et cliquer sur le Boutton **More** pour avoir plus d'informations sur chaque formation.
+Cette interface affiche la liste (Ionic sliding list) des **formations** disponibles sur la platforme, il suffit de **Swipe left** et cliquer sur le boutton **More** pour avoir plus d'informations sur chaque formation.
 
 ![img](./ScreenShot/dashboard.png)
 ![img](./ScreenShot/more_button.png)
 
-En bas de l'interface, s'affiche des **Tabs** qui ramene toujours a **l'interface d'acceuil** ou bien pour se deconnecter (**Logout**), l'utilisateur se trouve de nouveau dans l'interface de connexion: **Sign In**
+En bas de l'interface, s'affiche des **Tabs** qui ramènent toujours à **l'interface d'acceuil** ou bien pour se deconnecter (**Logout**), l'utilisateur se trouve de nouveau dans l'interface de connexion: **Sign In**
 
 ![img](./ScreenShot/tabs.png)
 
@@ -51,21 +66,26 @@ En bas de l'interface, s'affiche des **Tabs** qui ramene toujours a **l'interfac
 Affiche les details d'une formation:
 _Une image representant la formation (le language)_
 _Une petite description de la formation._
-_La duree de la formation_
-_Les prerequies que l'utilisateur doit metriser avant d'entamer la formation_
+_La durée de la formation_
+_Les prérequies que l'utilisateur doit maîtriser avant d'entamer la formation_
 _Le prix de la formation_
 
-Plus d'un boutton _**ENROLL NOW**_ pour s'inscrire a la formation.
+Plus d'un boutton _**ENROLL NOW**_ pour s'inscrire à la formation.
 
 ![img](./ScreenShot/details.png)
 
-Avant de s'inscrire a la formation, un **Alert de confirmation** s'affiche pour confirmer si l'utilisateur voudrais bien s'inscrire a cette formation.
+Avant de s'inscrire à la formation, un **Alert de confirmation** s'affiche pour confirmer si l'utilisateur voudrais bien s'inscrire à cette formation.
 ![img](./ScreenShot/enroll_confirm.png)
 
 ## L'interface Summary:
-Une fois l'utilisateur est inscrit a une certaine formation, cette interface lui affiche les nformation de la formation qui a choisi, plus ses informations (**son adresse email**)
+Une fois l'utilisateur est inscrit à une certaine formation, cette interface lui affiche les informations de la formation qui a choisi, plus ses informations (**son adresse email**)
 
 ![img](./ScreenShot/summary.png)
+
+## Gestion de base de données:
+**Firebase** est un ensemble de services d'hébergement pour n'importe quel type d'application (Android, iOS, Javascript, Node.js, Java, Unity, PHP, C++ ...). Il propose d'héberger en NoSQL et en temps réel des bases de données, du contenu, de l'authentification sociale (Google, Facebook, Twitter et Github), et des notifications, ou encore des services, par exemple un serveur de communication temps réel.
+
+![img](./ScreenShot/Firebase_Logo.svg)
 
 
 
