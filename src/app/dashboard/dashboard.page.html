@@ -16,9 +16,10 @@
         <ion-card-header>
           <!-- <ion-card-subtitle>Card Subtitle</ion-card-subtitle> -->
           <ion-card-title>Formations:</ion-card-title>
+          <ion-card-subtitle>Swipe left for more information about the formation</ion-card-subtitle>
         </ion-card-header>
         <ion-card-content>
-          <ion-list *ngFor="let f of formations" >
+          <ion-list *ngFor="let f of formations">
             <ion-item-sliding>
             <ion-item >
               <ion-label> {{ f.name }} </ion-label>
