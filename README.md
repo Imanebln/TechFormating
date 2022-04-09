@@ -12,7 +12,7 @@
         - Gestion de base de données:
              - Firebase
              
-        - Technologies utilisees:
+        - Technologies utilisées:
              - Angular
              - Ionic
              
@@ -83,11 +83,31 @@ Une fois l'utilisateur est inscrit à une certaine formation, cette interface lu
 ![img](./ScreenShot/summary.png)
 
 ## Gestion de base de données:
+
 **Firebase** est un ensemble de services d'hébergement pour n'importe quel type d'application (Android, iOS, Javascript, Node.js, Java, Unity, PHP, C++ ...). Il propose d'héberger en NoSQL et en temps réel des bases de données, du contenu, de l'authentification sociale (Google, Facebook, Twitter et Github), et des notifications, ou encore des services, par exemple un serveur de communication temps réel.
 
 ![img](./ScreenShot/Firebase_Logo.svg)
 
+## Technologies utilisées:
 
+**Angular** est un framework côté client, open source, basé sur TypeScript. Angular est une réécriture complète d'AngularJS.
+Il permet la création d’applications Web et plus particulièrement de ce qu’on appelle des « Single Page Applications » : des applications web accessibles via une page web unique qui permet de fluidifier l’expérience utilisateur et d’éviter les chargements de pages à chaque nouvelle action. 
+Le Framework est basé sur une architecture du type MVC et permet donc de séparer les données, le visuel et les actions pour une meilleure gestion des responsabilités.
+
+![img](./ScreenShot/angular.svg)
+
+**Ionic** est un framework open-source créé en 2013 par Max Lynch, Ben Sperry, et Adam Bradley.
+Basé initialement sur AngularJS et Apache Cordova2, Ionic permet de créer un code multisupport en utilisant des outils Web comme HTML, CSS, JavaScript, afin de générer des applications iOS, Android, Chrome, Windows Phone et bien d'autres.
+
+![img](./ScreenShot/ionic.png)
+
+## Environnement et outils de travail:
+
+**Visual Studio Code** est un éditeur de code extensible développé par Microsoft pour Windows, Linux et macOS2.
+
+**Firebase Console** 
+
+![img](./ScreenShot/console.png)
 
 
 
