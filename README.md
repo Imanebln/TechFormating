@@ -29,6 +29,7 @@
 Cette application mobile consiste à créer une application mobile sous nom de **TechFormating**, sous forme d'une platforme de formations en programmation (**language et Framework**).
 
 ## Les interfaces de l’application: 
+<h2 align="center" color="red" >Les interfaces de l’application: </h2>
 
 ###### L’application se présente avec un système d’authentification (SignIn + SignUp):
 
