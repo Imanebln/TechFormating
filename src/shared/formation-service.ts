@@ -13,12 +13,25 @@ import { Formation } from './Formation';
   providedIn: 'root',
 })
 export class FormationService {
+
+  formationListRef: AngularFireList<any>;
+
   constructor(private firestore: Firestore) {}
  
   // Get List
   getFormationList() {
     const notesRef = collection(this.firestore, 'formations');
     return collectionData(notesRef, { idField: 'id'}) as Observable<Formation[]>;
+  }
+  enrollFormation(form: Formation) {
+    return this.formationListRef.push({
+      name: form.name,
+      duration: form.duration,
+      price: form.price,
+      description: form.description,
+      prerequisite: form.prerequisite,
+      img: form.img,
+    });
   }
 
 }

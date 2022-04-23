@@ -1,3 +1,4 @@
+import { FormationService } from './../../shared/formation-service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
@@ -15,7 +16,8 @@ export class DetailsPage implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    public alertController: AlertController
+    public alertController: AlertController,
+    private formationService: FormationService
   ) { }
 
   selectedForm?: Formation;
