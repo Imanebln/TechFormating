@@ -89,13 +89,19 @@ Une fois l'utilisateur est inscrit à une certaine formation, cette interface lu
 
 ## Architecture de l'application sur VS code:
 L'architecture de cette application se presente comme suit:
+
 ![img](./ScreenShot/architecture.png)
 
  - Chaque **component** représente une interface de l'application.
+ 
    ![img](./ScreenShot/components.png)
+   
  - Chaque **component** contient un ensemble de fichiers:
+
    ![img](./ScreenShot/component_files.png)
+   
  - Un dossier **Shared** contient l'ensemble des services firebase et des interfaces (Formation & User):
+ 
    ![img](./ScreenShot/shared.png)
    
 
