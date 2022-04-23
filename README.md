@@ -1,7 +1,8 @@
 # TechFormating Application
 
 ![img](./ScreenShot/logo.png)
-
+<img src="./ScreenShot/logo.png" alt="TechFormatingLogo" width="200" height="200"/>
+          
 ## SOMMAIRE:
 
         - Présentation
