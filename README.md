@@ -102,7 +102,9 @@ Le Framework est basé sur une architecture du type MVC et permet donc de sépar
 **Ionic** est un framework open-source créé en 2013 par Max Lynch, Ben Sperry, et Adam Bradley.
 Basé initialement sur AngularJS et Apache Cordova2, Ionic permet de créer un code multisupport en utilisant des outils Web comme HTML, CSS, JavaScript, afin de générer des applications iOS, Android, Chrome, Windows Phone et bien d'autres.
 
-![img](./ScreenShot/ionic.png)
+<a href="https://ionicframework.com/docs" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original-wordmark.svg" alt="ionic" width="40" height="40" />
+          </a>
 
 ## Environnement et outils de travail:
 
