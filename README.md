@@ -26,7 +26,7 @@
              - Firebase Console
            
 ## Présentation:
-Cette application mobile consiste à créer une application mobile sous nom de **TechFormating**, sous forme d'une platforme de formations en programmation (**language et Framework**).
+Cette application consiste à créer une application mobile sous nom de **TechFormating**, sous forme d'une platforme de formations de programmation (**language et Framework**).
 
 ## Les interfaces de l’application:
 
