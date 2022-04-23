@@ -11,6 +11,8 @@
              2. L’interface d'Accueil
              3. L’interface Details
              4. L’interface Summary
+             
+        - Architecture de l'application sur VS code
 
         - Gestion de base de données:
              - Firebase
@@ -84,6 +86,18 @@ Avant de s'inscrire à la formation, un **Alert de confirmation** s'affiche pour
 Une fois l'utilisateur est inscrit à une certaine formation, cette interface lui affiche les informations de la formation qui a choisi, plus ses informations (**son adresse email**)
 
 ![img](./ScreenShot/summary.png)
+
+## Architecture de l'application sur VS code:
+L'architecture de cette application se presente comme suit:
+![img](./ScreenShot/architecture.png)
+
+ - Chaque **component** représente une interface de l'application.
+   ![img](./ScreenShot/components.png)
+ - Chaque **component** contient un ensemble de fichiers:
+   ![img](./ScreenShot/component_files.png)
+ - Un dossier **Shared** contient l'ensemble des services firebase et des interfaces (Formation & User):
+   ![img](./ScreenShot/shared.png)
+   
 
 ## Gestion de base de données:
 
