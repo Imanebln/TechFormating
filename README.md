@@ -28,8 +28,7 @@
 ## Présentation:
 Cette application mobile consiste à créer une application mobile sous nom de **TechFormating**, sous forme d'une platforme de formations en programmation (**language et Framework**).
 
-## Les interfaces de l’application: 
-<h2 style="color: red">Les interfaces de l’application: </h2>
+## Les interfaces de l’application:
 
 ###### L’application se présente avec un système d’authentification (SignIn + SignUp):
 
@@ -104,7 +103,6 @@ L'architecture de cette application se presente comme suit:
  - Un dossier **Shared** contient l'ensemble des services firebase et des interfaces (Formation & User):
  
    ![img](./ScreenShot/shared.png)
-   
 
 ## Gestion de base de données:
 
