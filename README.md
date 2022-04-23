@@ -91,6 +91,11 @@ Une fois l'utilisateur est inscrit à une certaine formation, cette interface lu
 
 <a href="https://firebase.google.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" alt="firebase" width="300" height="300"/></a>
 
+###### Les formations affichées sont stockées dans **Firebase** sous forme de **collections** comme suit:
+![img](./ScreenShot/formations_firebase.png)
+###### Ainsi que les utilisateurs (**users**), il sont enregistés comme suit:
+![img](./ScreenShot/users_firebase.png)
+
 ## Technologies utilisées:
 
 **Angular** est un framework côté client, open source, basé sur TypeScript. Angular est une réécriture complète d'AngularJS.
