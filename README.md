@@ -56,6 +56,7 @@ L'utilisateur doit se connecter avec un compte existant, sinon un alert s’affi
 S'il se trompe dans le mot de passe, un alert s’affichera toujours :
 
 ![img](./ScreenShot/wrong_password.png)
+
 L'utilisateur peut même se connecter avec **Google Provider** fournit par la platforme **Firebase**
 
 ## L'interface Accueil :
