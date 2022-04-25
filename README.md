@@ -13,6 +13,8 @@
              4. L’interface Summary
              5. L'interface "My enrolled Formations"
              
+        - Demo:
+             
         - Architecture de l'application sur VS code
 
         - Gestion de base de données:
@@ -94,6 +96,12 @@ Une fois l'utilisateur est inscrit à une certaine formation, cette interface lu
 Cette interface affiche les formations que l'utilisateur a acheté, **Enrolled formations**, avec un boutton de suppression pour supprimer à tous momment une formation de la liste.
 
 ![img](./ScreenShot/myFormations.png)
+
+## Demo:
+
+
+https://user-images.githubusercontent.com/73226170/165189029-74591c6d-238c-49bd-a747-a6038eeefb9f.mp4
+
 
 ## Architecture de l'application sur VS code:
 L'architecture de cette application se presente comme suit:
