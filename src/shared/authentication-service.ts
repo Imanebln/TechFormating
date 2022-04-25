@@ -119,4 +119,11 @@ export class AuthenticationService {
       this.router.navigate(['login']);
     });
   }
+  getCurrentUser() {
+    if(this.ngFireAuth.currentUser) {
+      return this.ngFireAuth.currentUser;
+    } else {
+      return null;
+    }
+  }
 }

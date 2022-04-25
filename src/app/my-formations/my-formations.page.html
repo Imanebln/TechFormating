@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>myFormations</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button routerLink="/tabs" ></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+  <ion-card-content>
+  <ion-list *ngFor="let item of f" >
+    <ion-item >
+      <ion-label>{{item.name}}</ion-label>
+      <ion-button color="danger" (click)="deleteFormation(item)"><ion-icon name="trash-outline"></ion-icon></ion-button>
+    </ion-item>
+  </ion-list>
+</ion-card-content>
+</ion-card>
+</ion-content>

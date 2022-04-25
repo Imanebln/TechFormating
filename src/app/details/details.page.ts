@@ -3,6 +3,10 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
 import { Formation } from 'src/shared/Formation';
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { AngularFireAuth } from '@angular/fire/compat/auth';
+import { doc, getDoc } from 'firebase/firestore';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
 
 @Component({
   selector: 'app-details',
@@ -17,7 +21,9 @@ export class DetailsPage implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     public alertController: AlertController,
-    private formationService: FormationService
+    private formationService: FormationService,
+    public ngFireAuth: AngularFireAuth,
+    public afStore: AngularFirestore
   ) { }
 
   selectedForm?: Formation;
@@ -38,8 +44,20 @@ export class DetailsPage implements OnInit {
         },
         {
           text: 'Yes sure!',
-          handler: () => {
-            this.router.navigate(['/summary',formation]);
+          handler: (value) => {
+            let data = {
+              name: this.selectedForm.name,
+              price: this.selectedForm.price
+            }
+            this.formationService.saveFormation(data)
+            .then(
+              res =>{
+                this.router.navigate(['/summary',formation]);
+                
+              }
+            )
+            // this.router.navigate(['/summary',formation]);
+            
           }
         }
       ]

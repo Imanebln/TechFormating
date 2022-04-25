@@ -64,6 +64,10 @@ const routes: Routes = [
   {
     path: 'menu',
     loadChildren: () => import('./menu/menu.module').then( m => m.MenuPageModule)
+  },
+  {
+    path: 'my-formations',
+    loadChildren: () => import('./my-formations/my-formations.module').then( m => m.MyFormationsPageModule)
   }
 ];
 
