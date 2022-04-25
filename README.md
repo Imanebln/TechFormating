@@ -1,4 +1,4 @@
-# TechFormating Application
+# TechFormating Mobile Application
 
 <img src="./ScreenShot/logo.png" alt="TechFormatingLogo" width="300" height="300"/>
           
