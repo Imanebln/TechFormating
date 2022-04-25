@@ -36,6 +36,7 @@ const routes: Routes = [
             (m) => m.MyFormationsPageModule
           ),
       }
+      
     ],
   },
 ];
