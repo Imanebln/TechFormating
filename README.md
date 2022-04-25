@@ -118,9 +118,15 @@ L'architecture de cette application se presente comme suit:
 <a href="https://firebase.google.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" alt="firebase" width="300" height="300"/></a>
 
 ###### Les formations affichées sont stockées dans **Firebase** sous forme de **collections** comme suit:
+
 ![img](./ScreenShot/formations_firebase.png)
+
 ###### Ainsi que les utilisateurs (**users**), il sont enregistés comme suit:
 ![img](./ScreenShot/users_firebase.png)
+
+###### Enrolled Formations sont enregistrées dans une collection nomée "booking", chaque utilisateur (User collection) contien la collection booking avec le nom et le prix des formations achetées.
+
+![img](./ScreenShot/booking.png)
 
 ## Technologies utilisées:
 
