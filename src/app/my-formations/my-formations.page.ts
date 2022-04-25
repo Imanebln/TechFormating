@@ -53,6 +53,7 @@ export class MyFormationsPage implements OnInit {
         }))
       )
   }
+  //list enrolled formations
   getMyFormations() {
     let currentUser = this.authService.getCurrentUser;
     if(this.authService.userData) {
@@ -64,7 +65,7 @@ export class MyFormationsPage implements OnInit {
     console.log(this.formations);
     return this.formations;
   }
-
+  //delete enrolled formation
   deleteFormation(formation){
     this.formationsCollection.doc(formation.id).delete();
     this.formations = this.formationsCollection.snapshotChanges().pipe(
@@ -75,8 +76,6 @@ export class MyFormationsPage implements OnInit {
       }))
     )
   }
-
- 
   ngOnInit() {
    
   }
