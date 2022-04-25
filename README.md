@@ -11,6 +11,7 @@
              2. L’interface d'Accueil
              3. L’interface Details
              4. L’interface Summary
+             5. L'interface "My enrolled Formations"
              
         - Architecture de l'application sur VS code
 
@@ -63,7 +64,7 @@ Cette interface affiche la liste (Ionic sliding list) des **formations** disponi
 ![img](./ScreenShot/dashboard.png)
 ![img](./ScreenShot/more_button.png)
 
-En bas de l'interface, s'affiche des **Tabs** qui ramènent toujours à **l'interface d'acceuil** ou bien pour se deconnecter (**Logout**), l'utilisateur se trouve de nouveau dans l'interface de connexion: **Sign In**
+En bas de l'interface, s'affiche des **Tabs** qui ramènent toujours à **l'interface d'acceuil**, un autre tab qui affiche la liste de **Enrolled formations**, ainsi qu'un autre pour se deconnecter (**Logout**), l'utilisateur se trouve de nouveau dans l'interface de connexion: **Sign In**
 
 ![img](./ScreenShot/tabs.png)
 
@@ -86,6 +87,12 @@ Avant de s'inscrire à la formation, un **Alert de confirmation** s'affiche pour
 Une fois l'utilisateur est inscrit à une certaine formation, cette interface lui affiche les informations de la formation qui a choisi, plus ses informations (**son adresse email**)
 
 ![img](./ScreenShot/summary.png)
+
+## L'interface "My enrolled Formations":
+
+Cette interface affiche les formations que l'utilisateur a acheté, **Enrolled formations**, avec un boutton de suppression pour supprimer à tous momment une formation de la liste.
+
+![img](./ScreenShot/myFormations.png)
 
 ## Architecture de l'application sur VS code:
 L'architecture de cette application se presente comme suit:
