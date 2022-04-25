@@ -124,7 +124,7 @@ L'architecture de cette application se presente comme suit:
 ###### Ainsi que les utilisateurs (**users**), il sont enregistés comme suit:
 ![img](./ScreenShot/users_firebase.png)
 
-###### Enrolled Formations sont enregistrées dans une collection nomée "booking", chaque utilisateur (User collection) contien la collection booking avec le nom et le prix des formations achetées.
+###### Enrolled Formations sont enregistrées dans une collection nomée "booking", chaque utilisateur (User collection) contient la collection booking avec les noms et les prix des formations achetées.
 
 ![img](./ScreenShot/booking.png)
 
